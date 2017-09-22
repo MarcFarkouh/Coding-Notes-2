@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>		
-		<title> Html Notes </title>
+			<title> Html Notes </title>
 		<body>
 		
 		<p>
@@ -21,33 +21,71 @@
 		<!-- This is an example of a comment-->
 		
 		<h2> Notes on Headers: </h2>
+		
 		- To make headers, you have to add h1 and for any smaller headers add h2, h3, etc...
 		
 		<h2> More Notes on html language: </h2>
+		
 		- Span can seperate a sentence or a certain sentence from the rest of your text. 
 		
 		<h2> Fonts and Line Spacing: </h2>
+		
 		- Em tags is use for <em> italics </em> and strong tags is used for <strong> Bold. </strong><br />
 		- To make a line break, use br / to move onto the next line. <br />
 		
 		<h2> Lists: </h2>
+		
 		- UL tags are used to create an unordered list tag. It makes a list in no particular order. The li tags are to describe an item in a list. <br />
 		- OL tags are used to create an ordered list then you can add li tags within the Ol tag.
 		
 		<h2> Links: </h2>
+		
 		- The link tags are a and /a. By using href, its attributes are set to a value of the URL. <br />
 		<a href="https://www.wikipedia.org/"> Link to Wikipedia </a> <br />
 		- HTML allows you to turn any element into a link by wrapping that element with an anchor element.It's possible to turn images into links by simply wrapping the img element with an a element. <br />
 		<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="#" alt="A red prickly pear fruit"/></a>
+		-If you add a target attribute to your link, it will open the link in a new window by adding taget= "blank"
 		
 		<h2> Images and vidoes: </h2>
+		
 		- The image tag allows you to add an image. You must put the image tag and then add the name of the file within that tag. Src must be set to the images source. <br />
 		<img src="https://www.hello.com/img_/hello_logo_hero.png" /> <br />
 		- Attributes are made up by: The name of the attribute and the value of it. 
 		- To insert a video, you must add the video tags... <!-- <Video src="whatever the file name is" width=x length=x controls> then close the video tags with </video> -->
-		
+				
 		<h3> Image ALts: </h3>
+		
 		- Supports visually impared users. Alt can add a description to a picture. It also is used if the image fails, the user can still read a description of the photo, and for visually imapred users, there screen reading software can read the description of the photo. <br />
+		
+		<h2> Files: </h2>
+		
+		- Web developers often store HTML files in the root directory, or a main folder where all the files for the project are stored.
+        If the browser is currently displaying index.html, it knows that about.html and contact.html are in the same folder as index.html, also referred to as the current folder. <br />		
+		- A relative path is a filename that shows the path to a local file (a file on the same website, such as ./index.html) versus an absolute path (a full url, like www.codecademy.com/learn/ruby which is stored in a different folder). The ./ in ./index.html tells the browser to look for the file in the current folder.
+		
+		<h3> Navigation through your page </h3>
+		
+		<ol><li><a href="#top">Top</a></li> <li><a href="#bottom">Bottom</a></li></ol>
+		- This may help the user of the website to scroll through your page and go to diffrent places of your website by clicking on the link... <br />
+		- Linking to elements on the same page or to other pages on the same site is called navigation. HTML has a special tag called <nav> that is used to wrap these links in order to organize the content on your web page. <br />
+		- Non-semantic tags means that they do not describe the content that is inside of them (div tags). However, many tags are used to describe the content that they surround, which helps us modify and style our content later. These are called semantic tags and <nav> is one of them! <br />
+		
+		<h2> Tables </h2>
+		
+		- Before displaying data, you must first create the table that will contain the data by using the table element. <br />
+		- The first step in entering data into the table is to add rows using the table row element: tr tags
+		- Rows aren't sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: td tags. <br />
+		- To add titles to rows and columns, you can use the table heading element: th tags <br /><br />
+		
+		<table>
+			<tr>
+				<th> A table </th>
+			</tr>
+			<tr>
+				<td> Hello </td>
+				<td> Marc! </td>
+			</tr>
+		</table>
 		
 		</p>		
 		</body>
