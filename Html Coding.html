@@ -65,8 +65,7 @@
 		
 		<h3> Navigation through your page </h3>
 		
-		<ol><li><a href="#top">Top</a></li> <li><a href="#bottom">Bottom</a></li></ol>
-		- This may help the user of the website to scroll through your page and go to diffrent places of your website by clicking on the link... <br />
+		 This may help the user of the website to scroll through your page and go to diffrent places of your website by clicking on the link... <br />
 		- Linking to elements on the same page or to other pages on the same site is called navigation. HTML has a special tag called <nav> that is used to wrap these links in order to organize the content on your web page. <br />
 		- Non-semantic tags means that they do not describe the content that is inside of them (div tags). However, many tags are used to describe the content that they surround, which helps us modify and style our content later. These are called semantic tags and <nav> is one of them! <br />
 		
@@ -75,7 +74,12 @@
 		- Before displaying data, you must first create the table that will contain the data by using the table element. <br />
 		- The first step in entering data into the table is to add rows using the table row element: tr tags
 		- Rows aren't sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: td tags. <br />
-		- To add titles to rows and columns, you can use the table heading element: th tags <br /><br />
+		- To add titles to rows and columns, you can use the table heading element: th tags <br />
+		- Table borders can be used to organize your table. 
+		- Data can span columns using the colspan attribute. The rowspan attribute is used for data that spans multiple rows. <br />
+		- Long tables can be sectioned off using the table body element: tbody. The tbody element should contain the all of the table's data, excluding the table headings. <br />
+		- When a table's body is sectioned off, however, it also makes sense to section off the table's headings using the thead element. <br />
+		- The bottom part of a long table can also be sectioned off using the tfoot element.<br /><br />
 		
 		<table>
 			<tr>
@@ -83,11 +87,13 @@
 			</tr>
 			<tr>
 				<td> Hello </td>
-				<td> Marc! </td>
+				<td rowspan="2"> Marc! </td>
 			</tr>
 		</table>
 		
-		</p>		
+	<ol><li><a href="#top">Top</a></li>
+		
+		</p>			
 		</body>
 	</head>
 <html>
