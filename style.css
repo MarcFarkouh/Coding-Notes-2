@@ -1,6 +1,11 @@
 h1 {
 	color: blue;
+	text-align: center;
+	opacity: 0.66;
 }
 h2 {
 	color: green;
+}
+body {
+	background-color: yellow;
 }
