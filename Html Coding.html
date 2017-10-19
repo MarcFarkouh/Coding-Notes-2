@@ -4,9 +4,9 @@
 		<link href="./style.css" type="text/css" rel="stylesheet">
 			<title> Html Notes/CSS Notes </title>
 		<body>
+			
+			<h1> Basic Html language:</h1>
 		
-		
-		<h1> Basic Html language:</h1>
 		<p>
 		-Hypertext is a text display that provides access throught other links.
 		!DOCTYPE html -Must be the first line of code in your html documents.
@@ -23,33 +23,33 @@
 		</p>
 		<!-- This is an example of a comment-->
 		
-		<h2> Notes on Headers: </h2>
+			<h2> Notes on Headers: </h2>
 		
 		<p>
 		- To make headers, you have to add h1 and for any smaller headers add h2, h3, etc...
 		</p>
 		
-		<h2> More Notes on html language: </h2>
+			<h2> More Notes on html language: </h2>
 		
 		<p>
 		- Span can seperate a sentence or a certain sentence from the rest of your text. 
 		</p>
 		
-		<h2> Fonts and Line Spacing: </h2>
+			<h2> Fonts and Line Spacing: </h2>
 		
 		<p>
 		- Em tags is use for <em> italics </em> and strong tags is used for <strong> Bold. </strong><br />
 		- To make a line break, use br / to move onto the next line. <br />
 		</p>
 		
-		<h2> Lists: </h2>
+			<h2> Lists: </h2>
 		
 		<p>
 		- UL tags are used to create an unordered list tag. It makes a list in no particular order. The li tags are to describe an item in a list. <br />
 		- OL tags are used to create an ordered list then you can add li tags within the Ol tag.
 		</p>
 		
-		<h2> Links: </h2>
+			<h2> Links: </h2>
 		
 		<p>
 		- The link tags are a and /a. By using href, its attributes are set to a value of the URL. <br />
@@ -59,7 +59,7 @@
 		-If you add a target attribute to your link, it will open the link in a new window by adding taget= "blank"
 		</p>
 		
-		<h2> Images and vidoes: </h2>
+			<h2> Images and vidoes: </h2>
 		
 		<p>
 		- The image tag allows you to add an image. You must put the image tag and then add the name of the file within that tag. Src must be set to the images source. <br />
@@ -68,13 +68,13 @@
 		- To insert a video, you must add the video tags... <!-- <Video src="whatever the file name is" width=x length=x controls> then close the video tags with </video> -->
 		</p>
 		
-		<h2> Image Alts: </h2>
+			<h2> Image Alts: </h2>
 		
 		<p>
 		- Supports visually impared users. Alt can add a description to a picture. It also is used if the image fails, the user can still read a description of the photo, and for visually imapred users, there screen reading software can read the description of the photo. <br />
 		</p>
 		
-		<h2> Files: </h2>
+			<h2> Files: </h2>
 		
 		<p>
 		- Web developers often store HTML files in the root directory, or a main folder where all the files for the project are stored.
@@ -82,7 +82,7 @@
 		- A relative path is a filename that shows the path to a local file (a file on the same website, such as ./index.html) versus an absolute path (a full url, like www.codecademy.com/learn/ruby which is stored in a different folder). The ./ in ./index.html tells the browser to look for the file in the current folder.
 		</p>
 		
-		<h3> Navigation through your page </h3>
+			<h3> Navigation through your page </h3>
 		
 		<p>
 		 This may help the user of the website to scroll through your page and go to diffrent places of your website by clicking on the link... <br />
@@ -90,14 +90,14 @@
 		- Non-semantic tags means that they do not describe the content that is inside of them (div tags). However, many tags are used to describe the content that they surround, which helps us modify and style our content later. These are called semantic tags and <nav> is one of them! <br />
 		</p>
 		
-		<h2> Tables </h2>
+			<h2> Tables </h2>
 		
 		<p>
 		- Before displaying data, you must first create the table that will contain the data by using the table element. <br />
 		- The first step in entering data into the table is to add rows using the table row element: tr tags
 		- Rows aren't sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: td tags. <br />
 		- To add titles to rows and columns, you can use the table heading element: th tags <br />
-		- Table borders can be used to organize your table. 
+		- Table borders can be used to organize your table. <br />
 		- Data can span columns using the colspan attribute. The rowspan attribute is used for data that spans multiple rows. <br />
 		- Long tables can be sectioned off using the table body element: tbody. The tbody element should contain the all of the table's data, excluding the table headings. <br />
 		- When a table's body is sectioned off, however, it also makes sense to section off the table's headings using the thead element. <br />
@@ -114,7 +114,7 @@
 			</tr>
 		</table>
 		
-		<h2> CSS Notes </h2>
+			<h2> CSS Notes </h2>
 		
 		<p>
 		- Example of a Tag to open your CSS file to allow it in your code, link href="style.css" type="text/css" rel="stylesheet" <br />
@@ -147,7 +147,7 @@
 		- Borders can be set with a specific style, width, color. <br /><br />
 		</p>
 		
-		<h2> Box Model </h2> 
+			<h2> Box Model </h2> 
 		
 		<p>
 		- You can add padding between content boxes. You can adjust the size of the spaces between the boxes by adjusting the number of pixels. <br />
@@ -160,6 +160,27 @@
 		- Elements can be hidden from view with the visibility property. The two elements for visibilty is hidden which hides certain elements, and visible which displays an element. <br />
 		- The universal selector (*) targets all elements on the web page and sets their box model to the border-box model. <br />
 		</p>
+		
+			<h2> Positioning </h2>
+		
+		<p>
+		- Another way of modifying the position of an element is by setting its position to absolute. <br />
+		- When an element's position is set to absolute all other elements on the page will ignore the element and act like it is not present on the page. When an element's position is set to absolute, as in the last exercise, the element will scroll out of view when a user scrolls. <br />
+		- The default display for some tags, such as em, strong, and a, is called inline. Inline elements have a box that wraps tightly around their content, only taking up the amount of space necessary to display their content and not requiring a new line after each element. The height and width of these elements cannot be specified in the CSS document. <br />
+		- Some elements are not displayed in the same line as the content around them. These are called block-level elements. These elements fill the entire width of the page and, unless specified, are the height necessary to accommodate the content inside of them. <br />
+		- The third value for the display property is inline-block. Inline-block display combines features of both inline and block elements. Inline-block elements can appear next to each other and we can specify their dimensions using the width and height properties. <br />
+		- The z-index of an element specifies how far back or how far forward an element appears on the page.
+		- If you're simply interested in moving an element as far left or as far right as possible on the page, you can use the float property. <br /> 
+		- The clear property specifies how elements should behave when they bump into each other on the page. 
+		</p>
+		
+			<h2> Css Colour </h2>
+			
+		<p>
+		- Foreground color is the color that an element appears in. Color: this property styles an element's foreground color. Background-color: this property styles an element's background color.
+		- One syntax that we can use to specify colors is called hexadecimal. Colors specified using this system are called hex colors. A hex color begins with a hash character (#) which is followed by three or six characters. The characters represent values for red, blue and green. <br />
+		
+		
 		
 	<ol><li><a href="#top">Top</a></li>
 		
