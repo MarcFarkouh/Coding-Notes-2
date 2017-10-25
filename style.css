@@ -5,6 +5,7 @@ h1 {
 }
 h2 {
 	color: green;
+	text-align: center;
 }
 body {
 	background-color: orange;
@@ -14,4 +15,8 @@ font {
 }
 p	{
 	color: red;
+	text-align: center;
+}
+h3 {
+	color:blue;
 }
