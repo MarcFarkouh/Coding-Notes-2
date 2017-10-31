@@ -1,0 +1,18 @@
+body {
+	background-color: grey;
+	color: black;
+}
+
+td {
+	border: 2px solid green;
+	padding: 7px;
+
+}
+
+th{
+	border: 2px solid green;
+}
+
+ .nothing {
+	 border: 0px;
+ }
