@@ -8,9 +8,9 @@
 			
 			<table>
 			<tr>
-				<div class="nothing">
+				<div class="Day 0">
 				</div>
-				<th></th>
+				<th> Day 0 </th>
 				<th> Day 1 </th>				
 				<th> Day 2 </th>
 				<th> Day 3 </th>
