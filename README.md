@@ -3,14 +3,14 @@
 	<head>
 		<link href="./Style_CSS.css" type="text/css" rel="stylesheet"> 
 		<title>  Class Schedule 2017/2018 </title>
+	
+			<h1> Class Schedule 2017/2018 </h1>
 	</head>
 		<body>
 			
 			<table>
 			<tr>
-				<div class="Day 0">
-				</div>
-				<th> Day 0 </th>
+				<th class="empty"></th>
 				<th> Day 1 </th>				
 				<th> Day 2 </th>
 				<th> Day 3 </th>
@@ -25,7 +25,6 @@
 			</tr>
 			
 			<tr>
-			<div class="period_1">
 			<td>Period 1<br /><br /></td>
 			<td> French<br /> Mr D<br />Class: 389</td>
 			<td> PE<br /> Mr. Athletic<br /> Class:1</td>
@@ -56,6 +55,20 @@
 			<td> Comp Prog<br /> Ref D<br /> Class:85</td>
 		</tr>
 		<tr>
+			<td>Break<br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+		</tr>
+		<tr>
 			<td>Period 3<br /><br /></td>
 			<td> History<br /> Mr. Speaker<br /> Class:21</td>
 			<td> Math<br /> Mr. Addition<br /> Class:666</td>
@@ -69,6 +82,20 @@
 			<td><br /><br /></td>
 			<td> History<br /> Mr. Speaker<br /> Class:21</td>
 			
+		</tr>
+		<tr> 
+			<td>Lunch<br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
+			<td><br /><br /></td>
 		</tr>
 		<tr>
 			<td>Period 4<br /><br /></td>
