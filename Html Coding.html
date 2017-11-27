@@ -234,7 +234,11 @@
 		- Lines of code between curly braces are called blocks. if/else statements have two code blocks. If the variable needsCoffee is true, the program will run the first block of code. Otherwise, it will run the other block of code. <br />
 		- needsCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will ignore the else { ... } part. In this case, we'd see Finding coffee log to the console. <br />
 		- If needsCoffee were false, only the console.log() statement in the else block would be executed. <br />
-		
+		- All variables that have been created and set are truthy (and will evaluate to true if they are the condition of a control flow statement) unless they contain one of the seven values listed below: false, 0 and -0, "" and '' (empty strings), null, undefined, NaN (Not a Number), document.all (something you will rarely encounter) <br />
+		- It can be confusing when to use one = sign and when to use three === signs. Use a single = to assign a value to a variable. Use ===to compare the values of two different variables. <br />
+		- To deal with times when you need many else if conditions, we can turn to a switch statement to write more concise and readable code. <br />
+		- JavaScript also provides a way to shorten simple if/else statements called the ternary operator. The ternary operator can be used for any condition that can be evaluated to true or false, such as those with comparison operators. <br />
+		- 
 		</p>
 		
 	<ol><li><a href="#top">Top</a></li>
