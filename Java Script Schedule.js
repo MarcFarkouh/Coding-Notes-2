@@ -1,71 +1,66 @@
-var selectedclass;
-function highlightStyle()
-var className = document.getElementById("SelectedClass").value;
+/** This is my JavaScript file for my Schedule, all work for JavaScript is put down below **/
+function Pleasework(){
+	var selectedClass = document.getElementById("Hello").value;
+	switch (selectedClass) {
+/** Named my function which is please work, and put my switch in **/
+/** Also have all of my cases stated below **/
+		case "English":
+			selectedClass="English";
+			break;
+	
+		case "Math":
+			selectedClass="Math";
+			break;
+	
+		case "French":
+			selectedClass="French";
+			break;
+	
+		case "Religion":
+			selectedClass="Religion";
+			break;
+	
+		case "Computer Programming":
+			selectedClass="Computer Programming";
+			break;
+	
+		case "Music":
+			selectedClass="Music";
+			break;
+	
+		case "History":
+			selectedClass="History";
+			break;
+	
+		case "Science":
+			selectedClass="Science";
+			break;
+	
+		case "Speech":
+			selectedClass="Speech";
+			break;
+	
+		case "Level Assembly":
+			selectedClass="Level Assembly";
+			break;
+	
+		case 'Homeroom':
+			selectedClass="Homeroom";
+			break;
+	
+		case 'Advisors':
+			selectedClass="Advisors";
+			break;
+	
+		default:
+			console.log ("Not Valid");
+			break;
+		location.reload();
+			/**Looked this up online and is used in order to remove highlighted boxes and to make another search. **/
+	}
 
-switch (classname) {
-	case 'English':
-		selectedClass="English";
-		console.log ("Indie Reading")
-	break;
-	
-	case 'Math':
-		selectedClass="Math";
-		console.log ("Do math")
-	break;
-	
-	case 'French':
-		selectedClass="French";
-		console.log ("Bonjour")
-	break;
-	
-	case 'Religion':
-		selectedClass="Religion";
-		console.log ("Gentlemen")
-	break;
-	
-	case 'Computer Programming':
-		selectedClass="Computer Programming";
-		console.log ("Computers")
-	break;
-	
-	case 'Music':
-		selectedClass="Music";
-		console.log ("Hey Hey")
-	break;
-	
-	case 'History':
-		selectedClass="History";
-		console.log ("Hand cramps")
-	break;
-	
-	case 'Science':
-		selectedClass="Science";
-		console.log ("Stoicheomitry")
-	break;
-	
-	case 'Speech':
-		selectedClass="Speech";
-		console.log ("Speaking")
-	break;
-	
-	case 'Level Assembly':
-		selectedClass="Level Assembly";
-		console.log ("Boring")
-	break;
-	
-	case 'Homeroom':
-		selectedClass="Homeroom";
-		console.log ("One a cycle")
-	break;
-	
-	case 'Advisors':
-		selectedClass="Advisors";
-		console.log ("I love this class")
-	break;
-	
-	default:
-		console.log ("Not Valid");
-	break;
-}
-
-var Oraganizedclass= documnet.getElementByClassName(selectedClass)
+var className = document.getElementsByClassName(selectedClass);
+for (m= 0; m<className.length; m++){
+	className[m].stylebackgroundColor ="blue";
+		}
+/**Used a for loop as well as stating my variable which changes the colour of the background of the searched class **/
