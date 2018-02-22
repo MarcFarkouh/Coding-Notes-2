@@ -1,24 +1,19 @@
 <!DOCTYPE Html>
-<!-- Always put in at the beginning of a HTML file -->
 <html>
 	<head>
 		<link href="Schedule CSS.css" type="text/css" rel="stylesheet"> 
 		<script src="Java Script Schedule.js"></script>
 		<title>  Class Schedule 2017/2018 </title>
-<!-- Linked both my CSS File for the Schedule as well as my JavaScript file -->
+	
 			<h1> Class Schedule 2017/2018 </h1>
-<!-- The header I used in my Schedule -->
 	</head>
 		<body>
 		
-			<form>
 			<input id="Search" type="text" name="search" placeholder="Search smtg interesting...">
-			<input type="submit" onclick="Pleasework()" value="Search">
-			</form>
-<!-- Everything used to make a search bar as well as adding the onclick -->
+			<input type="submit" onclick='selectedClass()'>
+			
 			<table>
 			<tr>
-				<!--All of the days in a cycle -->
 				<th class="empty"></th>
 				<th> Day 1 </th>				
 				<th> Day 2 </th>
@@ -32,10 +27,10 @@
 				<th> Day A3 </th>
 				<th> Day A6 </th>
 			</tr>
-			<!-- All classes for Period One -->
+			
 			<tr>
 			<td>Period 1<br /><br /></td>
-			<td class="french"> French<br /> Mr D<br />Class: 389</td>
+			<td class="French"> French<br /> Mr D<br />Class: 389</td>
 			<td class="PE"> PE<br /> Mr. Athletic<br /> Class:1</td>
 			<td class="English"> English<br /> Mr Greaser<br /> Class:261</td>
 			<td class="Religion"> Religion<br /> Mr. Right<br /> Class:56</td>
@@ -50,7 +45,6 @@
 		
 		</tr>
 		<tr>
-			<!-- All classes for Period Two -->
 			<td>Period 2<br /><br /></td>
 		    <td class="English"> English<br /> Mr. Greaser<br /> Class:73</td>
 			<td class ="Music"> Music<br /> Mr.HeyHey<br /> Class:37</td>
@@ -58,14 +52,13 @@
 			<td class="Computer Programming"> Comp Prog <br /> Ref D<br /> Class: 85</td>
 			<td class ="Music"> Music<br /> Mr.HeyHey<br /> Class:37</td>
 			<td class ="Science"> Science<br /> Mr. Newtron<br /> Class:123</td>
-			<td class="french"> French<br /> Mr D<br />Class:389</td>
+			<td class="French"> French<br /> Mr D<br />Class:389</td>
 			<td class="English"> English<br /> Mr. Greaser<br /> Class:222</td>
 			<td class="Computer Programming"> Comp Prog<br /> Ref D<br /> Class:85</td>
 			<td class="Computer Programming"> Comp Prog<br /> Ref D<br /> Class:85</td>		
 			<td class="Computer Programming"> Comp Prog<br /> Ref D<br /> Class:85</td>
 		</tr>
 		<tr>
-			<!-- Blank boxes for break -->
 			<td>Break<br /><br /></td>
 			<td><br /><br /></td>
 			<td><br /><br /></td>
@@ -80,13 +73,12 @@
 			<td><br /><br /></td>
 		</tr>
 		<tr>
-			<!-- All classes for Period Three -->
 			<td>Period 3<br /><br /></td>
 			<td class ="History"> History<br /> Mr. Speaker<br /> Class:21</td>
 			<td class="Math"> Math<br /> Mr. Addition<br /> Class:666</td>
 			<td class ="History"> History<br /> Mr. Speaker<br /> Class:21</td>
-			<td class="french"> French<br /> Mr D<br />Class:389</td>
-			<td class="french"> French<br /> Mr D<br />Class:389</td>
+			<td class="French"> French<br /> Mr D<br />Class:389</td>
+			<td class="French"> French<br /> Mr D<br />Class:389</td>
 			<td class="Math"> Math<br /> Mr. Addition<br /> Class:666</td>
 			<td class="English"> English<br /> Mr. Greaser<br /> Class:222</td>
 			<td class ="History"> History<br /> Mr. Speaker<br /> Class:21</td>
@@ -96,7 +88,6 @@
 			
 		</tr>
 		<tr> 
-			<!-- Blank Spaces for Lunch -->
 			<td>Lunch<br /><br /></td>
 			<td><br /><br /></td>
 			<td><br /><br /></td>
@@ -111,7 +102,6 @@
 			<td><br /><br /></td>
 		</tr>
 		<tr>
-			<!-- All classes for Period Four -->
 			<td>Period 4<br /><br /></td>
 			<td class="Computer Programming"> Comp Prog<br /> Ref D<br /> Class:85</td>
 			<td class ="History"> History<br /> Mr. Speaker<br /> Class:21</td>
@@ -126,11 +116,10 @@
 			<td class ="Advisors"> Advisors<br /> Mr. Awesome<br /> Class: 232</td>
 		</tr>
 		<tr>
-			<!-- All classes for Period Five -->
 			<td>Period 5<br /><br /></td>
 			<td class="Computer Programming"> Comp Prog <br /> Ref D<br /> Class:85</td>
 			<td class ="Science"> Science<br /> Mr. Newtron<br /> Class:123</td>
-			<td class="french"> French<br /> Mr D<br />Class:389</td>
+			<td class="French"> French<br /> Mr D<br />Class:389</td>
 			<td class ="Science"> Science<br /> Mr. Newtron<br /> Class:123</td>
 			<td class="Religion"> Religion<br /> Mr. Right<br /> Class:56</td>
 			<td class ="Music"> Music<br /> Mr.HeyHey<br /> Class:37</td>
@@ -141,14 +130,13 @@
 			<td class ="History"> History<br /> Mr. Speaker<br /> Class:21</td>
 		</tr>
 		<tr>
-			<!-- All classes for Period Six -->
 			<td>Period 6<br /><br /></td>
 			<td class="Math"> Math<br /> Mr. Addition<br /> Class:666</td>
 			<td class="Religion"> Religion<br /> Mr. Right<br /> Class:56</td>
 			<td class="Math"> Math<br /> Mr. Addition<br /> Class:666</td>
 			<td class="Math"> Math<br /> Mr. Addition<br /> Class:666</td>
 			<td class="English"> English<br /> Mr. Greaser<br /> Class:222</td>
-			<td class="french"> French<br /> Mr D<br />Class:389</td>
+			<td class="French"> French<br /> Mr D<br />Class:389</td>
 			<td class ="Science"> Science<br /> Mr. Newtron<br /> Class:123</td>
 			<td class ="Music"> Music<br /> Mr.HeyHey<br /> Class:37</td>
 			<td class="English"> English<br /> Mr. Greaser<br /> Class:222</td>
@@ -159,5 +147,3 @@
 
 	</body>
 </html>	
-
-<!-- Closed my HTML file-->
