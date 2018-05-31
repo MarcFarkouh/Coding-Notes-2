@@ -55,15 +55,14 @@ function selectedClass(){
 		default:
 			console.log ("Not Valid");
 			break;
+		
 		location.reload();
 			/**Looked this up online and is used in order to remove highlighted boxes and to make another search. **/
 						}
 		var className = document.getElementsByClassName(selectedClass);
 for (m= 0; m<className.length; m++){
-	className[m].style.backgroundColor ="blue";
+	className[m].style.backgroundColor ="red";
 		
 			}
-				
-
 									}
 /**Used a for loop as well as stating my variable which changes the colour of the background of the searched class **/

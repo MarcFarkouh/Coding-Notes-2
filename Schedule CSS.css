@@ -26,3 +26,10 @@ th{
  td:hover {
 	 background-color: green;
  }
+ 
+.box{
+	border-style: dotted;
+	
+} 
+ 
+div {border-color: blue, green, red, pink;}
